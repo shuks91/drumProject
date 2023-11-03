@@ -1,0 +1,98 @@
+@media (min-width: 600px) {
+    .cards {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (min-width: 900px) {
+    .cards {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+.text {
+    position: absolute;
+    bottom: 100px;
+    right: 100px;
+    background-color: black;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+
+body {
+    font-family: 'PT Sans', 'sans-serif';
+    margin: 0;
+    padding: 0;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #525252;
+    line-height: 1.7;
+}
+
+* {
+    outline: none;
+}
+
+h1 {
+    font-size: 3rem;
+    line-height: 1.2;
+    margin-bottom: 1rem;
+}
+
+.container {
+    width: 70%;
+    margin: 0 auto;
+    /* padding: 0 20px; */
+}
+
+
+.cards {
+    max-width: 800px;
+    margin: 0 auto;
+    display: grid;
+    gap: 4rem;
+
+}
+
+.heading {
+    /* border: 5px solid; */
+    /* background-image:; */
+    position: relative;
+    text-align: center;
+    font-family: 'PT Sans', 'sans-serif';
+    font-size: 60px;
+    font-weight: 600;
+    text-align: center;
+    padding: 5px;
+
+    /* box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px; */
+    color: #A95C68;
+
+}
+
+h3 {
+    font-size: 3rem;
+    line-height: 1.2;
+    text-align: center;
+}
+
+p {
+    font-size: 1.4rem;
+    font-weight: 300;
+    text-align: center;
+}
+
+button {
+    border-radius: 100%;
+    border: 0.5em solid #272727;
+    background-color: #9DA3A4;
+    color: #272727;
+    transition: 500ms linear;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+button:hover {
+    transform: scale(1.1);
+}
